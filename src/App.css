@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.but{
+  position: absolute;
+  right: 0;
+  top: 100px;
+  transform: rotate(90deg);
+  z-index: 1;
+}
+.blackScreen{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(77, 74, 74, 0.507);
+  display: none;
+}
+.showBlackScreen{
+  display: block;
+}
+.box{
+  width: 400px;
+  height: 50%;
+  position: fixed;
+  top: -500%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(234, 99, 99);
+  }
+  .showBox{
+  transition: 0.5s;
+  top: 50%;
+}
